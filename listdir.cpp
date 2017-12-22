@@ -5,7 +5,6 @@
 static int count;
 
 
-
 int main() {
     	wchar_t s[512];              	// текущая папка
     	GetCurrentDirectory(512, s);	// получить текущую папку
@@ -29,7 +28,6 @@ int main() {
     	wprintf(L"File count = %d\n", count);
     	return 0;
 }
-
 
 /*void dfs() {
 	HANDLE hFind;                   	// номер поиска
